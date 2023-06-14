@@ -1,0 +1,17 @@
+<h1>Signals Demo</h1>
+
+<div>
+  <p>Counter : {{ counter() }}</p>
+  <p>Double Counter : {{ doubleCounter() }}</p>
+
+  <div>
+    <button (click)="increment()">+</button>
+    <button (click)="decrement()">-</button>
+  </div>
+</div>
+
+<h3>Action Log</h3>
+
+<ol>
+  <li *ngFor="let action of actions()" > {{action}} </li>
+</ol>
