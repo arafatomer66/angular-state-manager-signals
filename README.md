@@ -1,3 +1,8 @@
-Angular Signals
+# Angular State Manager (Signals)
 
-A small counter app implemented with angulars new state manager Signals.
+State management implementation in Angular using the new Signals API.
+
+## Tech
+- Angular
+- TypeScript
+- Signals
